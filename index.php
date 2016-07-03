@@ -7,11 +7,13 @@ $faker = Faker\Factory::create();
 		<meta charset="UTF-8" />
 		<title>HOMEWORK</title>
 		<link rel="stylesheet" type="text/css" href="style/base.css">
+
 	</head>
 
  	<body>
 
 		<ol>
+
 		<?php for ($i=0; $i < 10; $i++): ?>
 		<li>
 			<contact firstName="<?php echo $faker->firstName ?>" lastName="<?php echo $faker->lastName ?>" email="<?php echo $faker->email ?>"/>
@@ -29,6 +31,7 @@ $faker = Faker\Factory::create();
 		<?php endfor; ?>
 		</li>
 		</ol>
+
   
  	</body>
  </html>
